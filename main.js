@@ -6,7 +6,7 @@ const app = Vue.createApp({
             description: 'A pair of warm, fuzzy socks',
             image: './assets/images/socks_green.jpg',
             onSale: true,
-            inventory: 100,
+            inventory: 0,
             details: ['50% cotton', '30% wool', '20% polyester'],
             variants: [
                 { id: 2234, color: 'green', image: './assets/images/socks_green.jpg' },
@@ -28,6 +28,6 @@ const app = Vue.createApp({
                 this.cart -= 1
             }
         }
-        
+
     }
 })
